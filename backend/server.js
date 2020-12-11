@@ -8,7 +8,7 @@ app.get('/api/albums/:id', (req, res) => {
   if (album) {
     res.send(album);
   } else {
-    res.status(404).send({ message: 'Product Not Found' });
+    res.status(404).send({ message: 'Album Not Found' });
   }
 });
 
