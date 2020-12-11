@@ -3,6 +3,16 @@ import data from './data.js';
 
 const app = express();
 
+app.get('/api/albums/:id', (req, res) => {
+  const album = data.albums.find((x) => x._id === req.params.id);
+  if (album) {
+    res.send(album);
+  } else {
+    res.status(404).send({ message: 'Product Not Found' });
+  }
+});
+
+
 app.get('/api/albums', (req, res) => {
   res.send(data.albums);
 });
