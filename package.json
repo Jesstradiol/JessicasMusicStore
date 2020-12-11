@@ -1,5 +1,6 @@
 {
   "name": "jessicamusicstore",
+  "type": "module",
   "version": "1.0.0",
   "description": "My music store. Similar to Amazon",
   "main": "index.js",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Jesstradiol/JessicasMusicStore#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
