@@ -2,6 +2,7 @@ import express from 'express';
 import expressAsyncHandler from 'express-async-handler';
 import data from '../data.js';
 import Album from '../models/albumModel.js';
+import { isAdmin, isAuth } from '../utils.js';
 
 const albumRouter = express.Router();
 
@@ -31,6 +32,30 @@ albumRouter.get(
     } else {
       res.status(404).send({ message: 'Album Not Found' });
     }
+  })
+);
+
+albumRouter.post(
+  '/',
+  isAuth,
+  isAdmin,
+  expressAsyncHandler(async (req, res) => {
+    const album = new Album({
+      AlbumTitle: 'saample title' + Date.now(),
+      Genre: 'sample genre',
+      copiesOnHand: 0,
+      AlbumRelease: 'sample year',
+      AlbumCost: 0,
+      TrackAmount: 0,
+      ProducerFName:'Producer First Name',
+      ProducerLName:'Producer Last Name',
+      InPrint:true,
+      image: '/images/Covers/Login.jpg',
+      rating: 0,
+      numReviews: 0,
+    });
+    const createdAlbum = await album.save();
+    res.send({ message: 'Product Created', product: createdAlbum });
   })
 );
 
