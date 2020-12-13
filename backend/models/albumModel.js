@@ -8,7 +8,7 @@ const albumSchema = new mongoose.Schema(
     AlbumTitle: { type: String, required: true},
     Genre: { type: String, required: true },
     copiesOnHand: { type: Number, required: true },
-    AlbumRelease: { type: Date, required: true },
+    AlbumRelease: { type: String, required: true },
     AlbumCost: { type: Number, required: true },
     TrackAmount: { type: Number, required: true },
     ProducerFName: { type: String, required: true },
