@@ -41,7 +41,8 @@ albumRouter.post(
   isAdmin,
   expressAsyncHandler(async (req, res) => {
     const album = new Album({
-      AlbumTitle: 'saample title' + Date.now(),
+      artists: 'Artist/Group name',
+      AlbumTitle: 'sample title' + Date.now(),
       Genre: 'sample genre',
       copiesOnHand: 0,
       AlbumRelease: 'sample year',
@@ -55,7 +56,48 @@ albumRouter.post(
       numReviews: 0,
     });
     const createdAlbum = await album.save();
-    res.send({ message: 'Product Created', product: createdAlbum });
+    res.send({ message: 'Album Created', album: createdAlbum });
+  })
+);
+albumRouter.put(
+  '/:id',
+  isAuth,
+  isAdmin,
+  expressAsyncHandler(async (req, res) => {
+    const albumId = req.params.id;
+    const album = await Album.findById(albumId);
+    if (album) {
+      album.artists = req.body.artists;
+      album.AlbumTitle = req.body.AlbumTitle;
+      album.Genre = req.body.Genre;
+      album.copiesOnHand = req.body.copiesOnHand;
+      album.AlbumRelease = req.body.AlbumRelease;
+      album.AlbumCost = req.body.AlbumCost;
+      album.TrackAmount = req.body.TrackAmount;
+      album.ProducerFName = req.body.ProducerFName;
+      album.ProducerLName = req.body.ProducerLName;
+      album.InPrint = req.body.InPrint;
+      album.image = req.body.image;
+      const updatedAlbum = await album.save();
+      res.send({ message: 'Album Updated', album: updatedAlbum });
+    } else {
+      res.status(404).send({ message: 'Album Not Found' });
+    }
+  })
+);
+
+albumRouter.delete(
+  '/:id',
+  isAuth,
+  isAdmin,
+  expressAsyncHandler(async (req, res) => {
+    const album = await Album.findById(req.params.id);
+    if (album) {
+      const deleteAlbum = await album.remove();
+      res.send({ message: 'Album Deleted', product: deleteAlbum });
+    } else {
+      res.status(404).send({ message: 'Album Not Found' });
+    }
   })
 );
 

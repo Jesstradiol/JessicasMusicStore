@@ -10,7 +10,7 @@ const orderSchema = new mongoose.Schema(
         AlbumCost: { type: Number, required: true },
         album: {
           type: mongoose.Schema.Types.ObjectId,
-          ref: 'albums',
+          ref: 'Album',
           required: true,
         },
       },
