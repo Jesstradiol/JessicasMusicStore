@@ -11,8 +11,7 @@ albumRouter.get(
   expressAsyncHandler(async (req, res) => {
   
     const albums = await Album.find({
-    })
-    .populate('seller', 'seller.name seller.logo')
+    });
     res.send(albums);
   })
 );
