@@ -19,7 +19,7 @@ const data = {
 
     albums: [
         {
-            _id:'1077',
+            
             artists:'Ween',
             AlbumTitle:'The Pod',
             Genre:'Psychedelic',
@@ -35,7 +35,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'1177',
+         
             artists:'Brian Eno',
             AlbumTitle:'Taking Tiger Mountain(By Strategy)',
             Genre:'Experimental',
@@ -51,7 +51,7 @@ const data = {
             numReviews:'6'
         },
         {
-            _id:'1277',
+         
             artists:'Frank Zappa',
             AlbumTitle:'Lumpy Gravy',
             Genre:'Experimental',
@@ -67,7 +67,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'1377',
+         
             artists:'Patricia Taxxon',
             AlbumTitle:'Astral',
             Genre:'Ambient',
@@ -83,7 +83,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'1477',
+          
             artists:'Syd Barrett',
             AlbumTitle:'Barrett',
             Genre:'Rock',
@@ -99,7 +99,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'1577',
+       
             artists:'Miles Davis',
             AlbumTitle:'On the Corner',
             Genre:'Experimental',
@@ -115,7 +115,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'1677',
+         
             artists:'Ween',
             AlbumTitle:'Pure Guava',
             Genre:'Rock',
@@ -131,7 +131,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'1777',
+        
             artists:'Blur',
             AlbumTitle:'Think Tank',
             Genre:'Rock',
@@ -147,7 +147,7 @@ const data = {
             numReviews:'99'
         },
         {
-            _id:'1778',
+        
             artists:'Patricia Taxxon',
             AlbumTitle:'Cicada',
             Genre:'Ambient',
@@ -163,7 +163,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'1877',
+          
             artists:'King Gizzard and the Wizard Lizard',
             AlbumTitle:'Flying Microtonal Bananna',
             Genre:'Experimental',
@@ -179,7 +179,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'1977',
+         
             artists:'David Bowie',
             AlbumTitle:'Station to Station',
             Genre:'Multi',
@@ -195,7 +195,7 @@ const data = {
             numReviews:'33'
         },
         {
-            _id:'2077',
+         
             artists:'Bjork',
             AlbumTitle:'Debut',
             Genre:'Multi',
@@ -211,7 +211,7 @@ const data = {
             numReviews:'3'
         },
         {
-            _id:'2177',
+        
             artists:'Bjork',
             AlbumTitle:'Post',
             Genre:'Multi',
@@ -227,7 +227,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2277',
+         
             artists:'Kanye West',
             AlbumTitle:'Life of Pablo',
             Genre:'Hip Hop',
@@ -243,7 +243,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2377',
+       
             artists:'Kanye West',
             AlbumTitle:'808s and Heartbreak',
             Genre:'Hip Hop',
@@ -259,7 +259,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2477',
+        
             artists:'Pink Floyd',
             AlbumTitle:'Meddle',
             Genre:'Psychedelic',
@@ -275,7 +275,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2577',
+         
             artists:'Pink Floyd',
             AlbumTitle:'Piper at the Gates of Dawn',
             Genre:'Psychedelic',
@@ -291,7 +291,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2677',
+          
             artists:'Gorillaz',
             AlbumTitle:'Demon Days',
             Genre:'Multi',
@@ -307,7 +307,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2777',
+       
             artists:'Gorillaz',
             AlbumTitle:'D Sides',
             Genre:'Multi',
@@ -323,7 +323,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2778',
+          
             artists:'Frank Zappa',
             AlbumTitle:'One Size Fits All',
             Genre:'Multi',
@@ -339,7 +339,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2877',
+    
             artists:'Radiohead',
             AlbumTitle:'Ok Computer',
             Genre:'Experimental',
@@ -355,7 +355,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'2977',
+       
             artists:'Radiohead',
             AlbumTitle:'King of Limbs',
             Genre:'Country',
@@ -371,7 +371,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'3077',
+       
             artists:'Todd Rundgren',
             AlbumTitle:'A Wizard, A True Star',
             Genre:'Rock',
@@ -387,7 +387,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'3177',
+         
             artists:'Todd Rundgren',
             AlbumTitle:'Faithful',
             Genre:'Rock',
@@ -403,7 +403,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'3277',
+      
             artists:'Roxy Music',
             AlbumTitle:'Roxy Music',
             Genre:'Experimental',
@@ -419,7 +419,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'3377',
+        
             artists:'Roxy Music',
             AlbumTitle:'For Your Pleasure',
             Genre:'Experimental',
@@ -435,7 +435,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'3477',
+          
             artists:'Scott Walker',
             AlbumTitle:'Scott 4',
             Genre:'Soul',
@@ -451,7 +451,7 @@ const data = {
             numReviews:'12'
         },
         {
-            _id:'3577',
+    
             artists:'Scott Walker',
             AlbumTitle:'Nite Flights',
             Genre:'Experimental',
@@ -467,7 +467,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'3677',
+        
             artists:'Can',
             AlbumTitle:'Tago Mago',
             Genre:'Experimental',
@@ -483,7 +483,7 @@ const data = {
             numReviews:'12'
         },
         {
-            _id:'3777',
+        
             artists:'Can',
             AlbumTitle:'Ege Bamyasi',
             Genre:'Experimental',
@@ -499,7 +499,7 @@ const data = {
             numReviews:'2'
         },
         {
-            _id:'3778',
+          
             artists:'Blur',
             AlbumTitle:'13',
             Genre:'Rock',
@@ -515,7 +515,7 @@ const data = {
             numReviews:'3'
         },
         {
-            _id:'3877',
+            
             artists:'The Talking Heads',
             AlbumTitle:'Fear of Music',
             Genre:'Funk',
@@ -531,7 +531,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'3977',
+          
             artists:'The Talking Heads',
             AlbumTitle:'Remain in Light',
             Genre:'Experimental',
@@ -547,7 +547,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'4077',
+           
             artists:'Janes Addiction',
             AlbumTitle:'Nothings Shocking',
             Genre:'Rock',
@@ -563,7 +563,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'4177',
+         
             artists:'Janes Addiction',
             AlbumTitle:'Ritual de la Habitual',
             Genre:'Rock',
@@ -579,7 +579,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'4778',
+         
             artists:'Show is the Rainbow',
             AlbumTitle:'Aw Nutz',
             Genre:'Experimental',
@@ -590,12 +590,12 @@ const data = {
             ProducerFName:'Darren',
             ProducerLName:'Keen',
             InPrint:false,
-            image:'AwNutz.jpg',
+            image:'/images/Covers/AwNutz.jpg',
             rating:'5.0',
             numReviews:'0'
         },
         {
-            _id:'5778',
+          
             artists:'Syd Barrett',
             AlbumTitle:'The Madcap Laughs',
             Genre:'Psychedelic',
@@ -611,7 +611,7 @@ const data = {
             numReviews:'0'
         },
         {
-            _id:'6778',
+          
             artists:'Brian Eno',
             AlbumTitle:'Another Green World',
             Genre:'Experimental',
@@ -627,7 +627,7 @@ const data = {
             numReviews:'44'
         },
         {
-            _id:'7778',
+          
             artists:'David Bowie',
             AlbumTitle:'Low',
             Genre:'Rock',
@@ -643,7 +643,7 @@ const data = {
             numReviews:'2'
         },
         {
-            _id:'8778',
+           
             artists:'Miles Davis',
             AlbumTitle:'Bitches Brew',
             Genre:'Jazz',
@@ -659,7 +659,7 @@ const data = {
             numReviews:'5'
         },
         {
-            _id:'9778',
+            
             artists:'King Gizzard and the Wizard Lizard',
             AlbumTitle:'Nonagon Infinity',
             Genre:'Rock',
