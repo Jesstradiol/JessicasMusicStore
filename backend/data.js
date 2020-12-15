@@ -20,7 +20,6 @@ const data = {
     albums: [
         {
             _id:'1077',
-            ArtistID:'123496',
             artists:'Ween',
             AlbumTitle:'The Pod',
             Genre:'Psychedelic',
@@ -37,7 +36,6 @@ const data = {
         },
         {
             _id:'1177',
-            ArtistID:'123456',
             artists:'Brian Eno',
             AlbumTitle:'Taking Tiger Mountain(By Strategy)',
             Genre:'Experimental',
@@ -54,7 +52,6 @@ const data = {
         },
         {
             _id:'1277',
-            ArtistID:'123417',
             artists:'Frank Zappa',
             AlbumTitle:'Lumpy Gravy',
             Genre:'Experimental',
@@ -71,7 +68,6 @@ const data = {
         },
         {
             _id:'1377',
-            ArtistID:'123437',
             artists:'Patricia Taxxon',
             AlbumTitle:'Astral',
             Genre:'Ambient',
@@ -88,7 +84,6 @@ const data = {
         },
         {
             _id:'1477',
-            ArtistID:'123447',
             artists:'Syd Barrett',
             AlbumTitle:'Barrett',
             Genre:'Rock',
@@ -105,7 +100,6 @@ const data = {
         },
         {
             _id:'1577',
-            ArtistID:'123476',
             artists:'Miles Davis',
             AlbumTitle:'On the Corner',
             Genre:'Experimental',
@@ -122,7 +116,6 @@ const data = {
         },
         {
             _id:'1677',
-            ArtistID:'123496',
             artists:'Ween',
             AlbumTitle:'Pure Guava',
             Genre:'Rock',
@@ -139,7 +132,6 @@ const data = {
         },
         {
             _id:'1777',
-            ArtistID:'123427',
             artists:'Blur',
             AlbumTitle:'Think Tank',
             Genre:'Rock',
@@ -156,7 +148,6 @@ const data = {
         },
         {
             _id:'1778',
-            ArtistID:'123437',
             artists:'Patricia Taxxon',
             AlbumTitle:'Cicada',
             Genre:'Ambient',
@@ -173,7 +164,6 @@ const data = {
         },
         {
             _id:'1877',
-            ArtistID:'123486',
             artists:'King Gizzard and the Wizard Lizard',
             AlbumTitle:'Flying Microtonal Bananna',
             Genre:'Experimental',
@@ -190,7 +180,6 @@ const data = {
         },
         {
             _id:'1977',
-            ArtistID:'123466',
             artists:'David Bowie',
             AlbumTitle:'Station to Station',
             Genre:'Multi',
@@ -207,7 +196,6 @@ const data = {
         },
         {
             _id:'2077',
-            ArtistID:'123497',
             artists:'Bjork',
             AlbumTitle:'Debut',
             Genre:'Multi',
@@ -224,7 +212,6 @@ const data = {
         },
         {
             _id:'2177',
-            ArtistID:'123497',
             artists:'Bjork',
             AlbumTitle:'Post',
             Genre:'Multi',
@@ -241,7 +228,6 @@ const data = {
         },
         {
             _id:'2277',
-            ArtistID:'123517',
             artists:'Kanye West',
             AlbumTitle:'Life of Pablo',
             Genre:'Hip Hop',
@@ -258,7 +244,6 @@ const data = {
         },
         {
             _id:'2377',
-            ArtistID:'123517',
             artists:'Kanye West',
             AlbumTitle:'808s and Heartbreak',
             Genre:'Hip Hop',
@@ -275,7 +260,6 @@ const data = {
         },
         {
             _id:'2477',
-            ArtistID:'123527',
             artists:'Pink Floyd',
             AlbumTitle:'Meddle',
             Genre:'Psychedelic',
@@ -292,7 +276,6 @@ const data = {
         },
         {
             _id:'2577',
-            ArtistID:'123527',
             artists:'Pink Floyd',
             AlbumTitle:'Piper at the Gates of Dawn',
             Genre:'Psychedelic',
@@ -309,7 +292,6 @@ const data = {
         },
         {
             _id:'2677',
-            ArtistID:'123537',
             artists:'Gorillaz',
             AlbumTitle:'Demon Days',
             Genre:'Multi',
@@ -326,7 +308,6 @@ const data = {
         },
         {
             _id:'2777',
-            ArtistID:'123537',
             artists:'Gorillaz',
             AlbumTitle:'D Sides',
             Genre:'Multi',
@@ -343,7 +324,6 @@ const data = {
         },
         {
             _id:'2778',
-            ArtistID:'123417',
             artists:'Frank Zappa',
             AlbumTitle:'One Size Fits All',
             Genre:'Multi',
@@ -360,7 +340,6 @@ const data = {
         },
         {
             _id:'2877',
-            ArtistID:'123547',
             artists:'Radiohead',
             AlbumTitle:'Ok Computer',
             Genre:'Experimental',
@@ -377,7 +356,6 @@ const data = {
         },
         {
             _id:'2977',
-            ArtistID:'123547',
             artists:'Radiohead',
             AlbumTitle:'King of Limbs',
             Genre:'Country',
@@ -394,7 +372,6 @@ const data = {
         },
         {
             _id:'3077',
-            ArtistID:'123557',
             artists:'Todd Rundgren',
             AlbumTitle:'A Wizard, A True Star',
             Genre:'Rock',
@@ -411,7 +388,6 @@ const data = {
         },
         {
             _id:'3177',
-            ArtistID:'123557',
             artists:'Todd Rundgren',
             AlbumTitle:'Faithful',
             Genre:'Rock',
@@ -428,7 +404,6 @@ const data = {
         },
         {
             _id:'3277',
-            ArtistID:'123567',
             artists:'Roxy Music',
             AlbumTitle:'Roxy Music',
             Genre:'Experimental',
@@ -445,7 +420,6 @@ const data = {
         },
         {
             _id:'3377',
-            ArtistID:'123567',
             artists:'Roxy Music',
             AlbumTitle:'For Your Pleasure',
             Genre:'Experimental',
@@ -462,7 +436,6 @@ const data = {
         },
         {
             _id:'3477',
-            ArtistID:'123577',
             artists:'Scott Walker',
             AlbumTitle:'Scott 4',
             Genre:'Soul',
@@ -479,7 +452,6 @@ const data = {
         },
         {
             _id:'3577',
-            ArtistID:'123577',
             artists:'Scott Walker',
             AlbumTitle:'Nite Flights',
             Genre:'Experimental',
@@ -496,7 +468,6 @@ const data = {
         },
         {
             _id:'3677',
-            ArtistID:'123587',
             artists:'Can',
             AlbumTitle:'Tago Mago',
             Genre:'Experimental',
@@ -513,7 +484,6 @@ const data = {
         },
         {
             _id:'3777',
-            ArtistID:'123587',
             artists:'Can',
             AlbumTitle:'Ege Bamyasi',
             Genre:'Experimental',
@@ -530,7 +500,6 @@ const data = {
         },
         {
             _id:'3778',
-            ArtistID:'123427',
             artists:'Blur',
             AlbumTitle:'13',
             Genre:'Rock',
@@ -547,7 +516,6 @@ const data = {
         },
         {
             _id:'3877',
-            ArtistID:'123597',
             artists:'The Talking Heads',
             AlbumTitle:'Fear of Music',
             Genre:'Funk',
@@ -564,7 +532,6 @@ const data = {
         },
         {
             _id:'3977',
-            ArtistID:'123597',
             artists:'The Talking Heads',
             AlbumTitle:'Remain in Light',
             Genre:'Experimental',
@@ -581,7 +548,6 @@ const data = {
         },
         {
             _id:'4077',
-            ArtistID:'123617',
             artists:'Janes Addiction',
             AlbumTitle:'Nothings Shocking',
             Genre:'Rock',
@@ -598,7 +564,6 @@ const data = {
         },
         {
             _id:'4177',
-            ArtistID:'123617',
             artists:'Janes Addiction',
             AlbumTitle:'Ritual de la Habitual',
             Genre:'Rock',
@@ -615,7 +580,6 @@ const data = {
         },
         {
             _id:'4778',
-            ArtistID:'123437',
             artists:'Show is the Rainbow',
             AlbumTitle:'Aw Nutz',
             Genre:'Experimental',
@@ -626,13 +590,12 @@ const data = {
             ProducerFName:'Darren',
             ProducerLName:'Keen',
             InPrint:false,
-            image:'/images/Covers/AwNutz.jpg',
+            image:'AwNutz.jpg',
             rating:'5.0',
             numReviews:'0'
         },
         {
             _id:'5778',
-            ArtistID:'123447',
             artists:'Syd Barrett',
             AlbumTitle:'The Madcap Laughs',
             Genre:'Psychedelic',
@@ -649,7 +612,6 @@ const data = {
         },
         {
             _id:'6778',
-            ArtistID:'123456',
             artists:'Brian Eno',
             AlbumTitle:'Another Green World',
             Genre:'Experimental',
@@ -666,7 +628,6 @@ const data = {
         },
         {
             _id:'7778',
-            ArtistID:'123466',
             artists:'David Bowie',
             AlbumTitle:'Low',
             Genre:'Rock',
@@ -683,7 +644,6 @@ const data = {
         },
         {
             _id:'8778',
-            ArtistID:'123476',
             artists:'Miles Davis',
             AlbumTitle:'Bitches Brew',
             Genre:'Jazz',
@@ -700,7 +660,6 @@ const data = {
         },
         {
             _id:'9778',
-            ArtistID:'123486',
             artists:'King Gizzard and the Wizard Lizard',
             AlbumTitle:'Nonagon Infinity',
             Genre:'Rock',

@@ -9,10 +9,15 @@ const albumRouter = express.Router();
 albumRouter.get(
   '/',
   expressAsyncHandler(async (req, res) => {
-    const albums = await Album.find({});
+  
+    const albums = await Album.find({
+    })
+    .populate('seller', 'seller.name seller.logo')
     res.send(albums);
   })
 );
+
+
 
 albumRouter.get(
   '/seed',
@@ -26,7 +31,7 @@ albumRouter.get(
 albumRouter.get(
   '/:id',
   expressAsyncHandler(async (req, res) => {
-    const album = await Album.findById(req.params.id);
+    const album = await (await Album.findById(req.params.id));
     if (album) {
       res.send(album);
     } else {
@@ -94,11 +99,13 @@ albumRouter.delete(
     const album = await Album.findById(req.params.id);
     if (album) {
       const deleteAlbum = await album.remove();
-      res.send({ message: 'Album Deleted', product: deleteAlbum });
+      res.send({ message: 'Album Deleted', album: deleteAlbum });
     } else {
       res.status(404).send({ message: 'Album Not Found' });
     }
   })
 );
+
+
 
 export default albumRouter;

@@ -3,7 +3,6 @@ import mongoose from 'mongoose';
 const albumSchema = new mongoose.Schema(
   {
       _id: { type: Number, required: true },
-    ArtistID: { type: Number, required: true },
     artists:  { type: String, required: true },
     AlbumTitle: { type: String, required: true},
     Genre: { type: String, required: true },
@@ -22,6 +21,6 @@ const albumSchema = new mongoose.Schema(
   timestamps: true,
 }
 );
-const Album = mongoose.model('albums', albumSchema);
+const Album = mongoose.model('Album', albumSchema);
 
 export default Album;
